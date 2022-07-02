@@ -1,0 +1,144 @@
+.container{
+    display: flex;
+}
+.sidebar{
+    background-color: black;
+    color: white;
+    height: 46vw;
+    width: 15vw;
+    align-items: center;
+}
+.container nav{
+    padding: 20px;
+}
+.container .list{
+    list-style: none;
+    margin-top: 10rem;
+    font-size: x-large;
+    font-family: serif;
+}
+.container .list li{    
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.container .list li:hover{
+    text-decoration: underline;
+}
+.container .list a{
+    color: white;
+    text-decoration: none;
+}
+.container .infoContainer{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+.container .infoContainer .info{
+    font-size: xx-large;
+    margin-bottom: 2rem;
+}
+.container .infoContainer .info .hi{
+    font-family: monospace;
+}
+.container .infoContainer .info .name{
+    font-family: serif;
+    font-weight: bold;
+}
+.container .infoContainer .info .web{
+    font-family: monospace;
+}
+.container .infoContainer .info .buttons button{
+    background-color: black;
+    color: white;
+    width: 20vh;
+    height: 1.5rem;
+    border-radius: 15px;
+    margin-right: 1rem;
+    margin-top: 1.5rem;
+    font-weight: bold;
+}
+.container .infoContainer .info .buttons button a{
+    text-decoration: none;
+    color: white;
+}
+.container .infoContainer .info .buttons button:hover{
+    background-color: gray;
+    border: 1px solid black;
+}
+.footer{
+    display: flex;
+    flex-direction:row;
+    margin-left: 350px;
+    margin-top: -90px;
+}
+.about{
+    margin-left: 19rem;
+    display: flex;
+    margin-top: -36vw;
+}
+.about .info{
+    width: 35vw;
+    font-size: x-large;
+    font-family: monospace;
+}
+.about .pic img{
+    width: 400px;
+    margin-left: 8rem;
+    border-radius: 125px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    margin-left: 19rem;
+    margin-top: -36vw;
+}
+.contact form .container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+.contact form .container label{
+    font-size: x-large;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.contact form .container input{
+    width: 28rem;
+}
+.contact form .check{
+    margin-top: -20px;
+}
+.contact form .check input{
+    margin-top: -2px;
+}
+.contact form .check label{
+    margin-top: -4px;
+    margin-left: -8px;
+}
+.contact form .btn button{
+    background-color: black;
+    color: white;
+    width: 20vh;
+    height: 1.5rem;
+    border-radius: 15px;
+    margin-right: 1rem;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.contact form .btn button:hover{
+    background-color: gray;
+    border: 1px solid black;
+}
+.main .skill{
+    margin-left: 25vw;
+    margin-top: -35rem;
+    font-size: larger;
+}
+.main .skill ul li{
+    font-family: monospace;
+    font-size: x-large;
+}
+.main .pic{
+    margin-top: -40rem;
+    margin-left: 45vw;
+}
